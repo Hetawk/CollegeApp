@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">CollegeApp</string>
+
+    <string name="title_activity_user">UserActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_admin">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="lato_bold" tools:ignore="ReferenceType">@font/lato_bold</string>
+    <string name="lato_italic" tools:ignore="ReferenceType">@font/lato_italic</string>
+    <string name="raleway_italic" tools:ignore="ReferenceType">@font/raleway_bold</string>
+    <string name="raleway_bold" tools:ignore="ReferenceType">@font/raleway_italic</string>
+    <string name="lobster_italic" tools:ignore="ReferenceType">@font/lobster_italic</string>
+    <string name="pacifico_regular" tools:ignore="ReferenceType">@font/pacifico_regular</string>
+    <string name="roboto_bold" tools:ignore="ReferenceType">@font/roboto_bold</string>
+    <string name="roboto_italic" tools:ignore="ReferenceType">@font/roboto_italic</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="about_college">
+        Christ Evangelical Lutheran College, in NoLand City, traces its origin to 1800,
+        when the First Evangelical Lutheran Synod of NoLand founded the Evangelical Lutheran
+        College of General Land, NoLand. The Reverend Peal served as its first president.
+        Financial difficulties forced a curtailment of the institution\'s functions, and it was
+        renamed the Evangelical Lutheran Proseminary of General Land, NoLand, in 1878. In 1890 the
+        proseminary, with the Reverend Peal as president, was moved to Seguin and reestablished
+        as an academy called the Christ Evangelical Lutheran College of NoLand City, NoLand
+    </string>
+
+
+</resources>

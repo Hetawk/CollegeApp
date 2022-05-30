@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "16914180824",
+    "project_id": "college-app-6918d",
+    "storage_bucket": "college-app-6918d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16914180824:android:ba681dcfa0d277eae205ad",
+        "android_client_info": {
+          "package_name": "com.ekd.college"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16914180824-bq7k3mfftj989j7inij8uq3178nc4als.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd_CReVBB007PE0eg73PLhitGhyeTJtIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16914180824-bq7k3mfftj989j7inij8uq3178nc4als.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/silver"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+
+            <com.smarteist.autoimageslider.SliderLayout
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                />
+
+
+            <TextView
+                android:id="@+id/title_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The GPA Table"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="36dp"
+                android:fontFamily="@font/lato_bold"
+                />
+
+            <TextView
+                android:id="@+id/about_college"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_college"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/text_size"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size"
+                android:fontFamily="@font/lobster_italic"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:background="@color/dark_gray"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="36dp"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/dep"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Departments"
+                        android:layout_marginTop="24dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/lato_bold"
+                        />
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@color/white"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Computer Science"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/text_size"
+                                android:fontFamily="@font/lobster_italic"
+                                />
+
+                            <View
+                                android:layout_width="wrap_content"
+                                android:layout_height="1dp"
+                                android:background="@color/light_gray"
+
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Computer Science"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/text_size"
+                                android:fontFamily="@font/lobster_italic"
+                                />
+
+                            <View
+                                android:layout_width="wrap_content"
+                                android:layout_height="1dp"
+                                android:background="@color/light_gray"
+
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Computer Science"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/text_size"
+                                android:fontFamily="@font/lobster_italic"
+                                />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/text_margin"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Details"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="36dp"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title_size"
+                    android:fontFamily="@font/raleway_bold"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato_light"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lonestar Paradise"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/lato_light"
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
