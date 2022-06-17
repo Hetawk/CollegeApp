@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../../../../layout/custom_preview.xml" value="0.1" />
+        <entry key="../../../../../Library/Android/sdk/platforms/android-31/data/res/layout/simple_spinner_item.xml" value="0.16614583333333333" />
         <entry key="app/college/src/main/res/drawable/ic_about.xml" value="0.1" />
         <entry key="app/college/src/main/res/drawable/ic_contact.xml" value="0.1" />
         <entry key="app/college/src/main/res/drawable/ic_developer.xml" value="0.1" />
@@ -18,6 +19,20 @@
         <entry key="app/college/src/main/res/layout/fragment_notice.xml" value="0.1" />
         <entry key="app/college/src/main/res/menu/bottom_nav.xml" value="0.15185185185185185" />
         <entry key="app/college/src/main/res/menu/navigation_drawer.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/blue_background_button.xml" value="0.103" />
+        <entry key="app/src/main/res/drawable-v24/ic_dashboard_black_24dp.xml" value="0.103" />
+        <entry key="app/src/main/res/drawable-v24/ic_home_black_24dp.xml" value="0.103" />
+        <entry key="app/src/main/res/drawable-v24/ic_music.xml" value="0.104" />
+        <entry key="app/src/main/res/drawable-v24/ic_music_one.xml" value="0.104" />
+        <entry key="app/src/main/res/drawable-v24/ic_notifications_black_24dp.xml" value="0.103" />
+        <entry key="app/src/main/res/drawable-v24/ic_search.xml" value="0.103" />
+        <entry key="app/src/main/res/drawable-v24/ic_search_black.xml" value="0.103" />
+        <entry key="app/src/main/res/drawable-v24/ic_search_black_24dp.xml" value="0.103" />
+        <entry key="app/src/main/res/drawable-v24/ic_sms.xml" value="0.1565" />
+        <entry key="app/src/main/res/drawable-v24/login1.xml" value="0.103" />
+        <entry key="app/src/main/res/drawable-v24/login2.xml" value="0.103" />
+        <entry key="app/src/main/res/drawable-v24/loginbutton.xml" value="0.103" />
+        <entry key="app/src/main/res/drawable-v24/white_background_button.xml" value="0.103" />
         <entry key="app/src/main/res/drawable/back.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/btn_background.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/btn_dropdown.xml" value="0.1" />
@@ -29,27 +44,88 @@
         <entry key="app/src/main/res/drawable/circle_purple.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/circle_red.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/circle_yellow.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_arrow_left.xml" value="0.1165" />
+        <entry key="app/src/main/res/drawable/ic_arrow_right.xml" value="0.1165" />
         <entry key="app/src/main/res/drawable/ic_baseline_linked_camera_24.xml" value="0.132" />
+        <entry key="app/src/main/res/drawable/ic_developer.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_logout.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_newsfeed.xml" value="0.1" />
+        <entry key="app/src/main/res/font/abhaya_libre_semibold.xml" value="0.19074074074074074" />
+        <entry key="app/src/main/res/layout-v26/contact_us.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_add_teacher.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_add_timetable.xml" value="0.17916666666666667" />
+        <entry key="app/src/main/res/layout/activity_admin_exam.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/activity_admin_exam_delete.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/activity_admin_exam_insertupdate.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_admin_exam_view.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_admin_menu.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_admin_notices.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_admin_papers.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/activity_admin_profile.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_admin_reference_materials.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_admin_sign_up.xml" value="0.18229166666666666" />
+        <entry key="app/src/main/res/layout/activity_admin_timetable_list.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_audio.xml" value="0.1546875" />
+        <entry key="app/src/main/res/layout/activity_card_view_notices.xml" value="0.18802083333333333" />
         <entry key="app/src/main/res/layout/activity_delete_notice.xml" value="0.165" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.20699523925781255" />
-        <entry key="app/src/main/res/layout/activity_main_one.xml" value="0.13269927536231885" />
+        <entry key="app/src/main/res/layout/activity_login1.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1206896551724138" />
+        <entry key="app/src/main/res/layout/activity_main_one.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_media.xml" value="0.11639492753623189" />
+        <entry key="app/src/main/res/layout/activity_picture_one.xml" value="0.1546875" />
+        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.2421875" />
+        <entry key="app/src/main/res/layout/activity_sign_in_student.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.2421875" />
+        <entry key="app/src/main/res/layout/activity_sign_up_admin.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_sign_up_student.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.15104166666666666" />
+        <entry key="app/src/main/res/layout/activity_splash_one.xml" value="0.17916666666666667" />
+        <entry key="app/src/main/res/layout/activity_student_sign_up.xml" value="0.18229166666666666" />
+        <entry key="app/src/main/res/layout/activity_timetable_details.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_update_faculty.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_update_teacher.xml" value="0.12537993920972645" />
         <entry key="app/src/main/res/layout/activity_upload_image.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_upload_notice.xml" value="0.1710159301757812" />
         <entry key="app/src/main/res/layout/activity_upload_pdf.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_video.xml" value="0.1546875" />
+        <entry key="app/src/main/res/layout/admin_list.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/contact_us.xml" value="0.2730263157894737" />
         <entry key="app/src/main/res/layout/drawer_header.xml" value="0.13269927536231885" />
+        <entry key="app/src/main/res/layout/entertainment.xml" value="0.1546875" />
+        <entry key="app/src/main/res/layout/exam_details_card_view.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/exam_details_student_card_view.xml" value="0.18802083333333333" />
         <entry key="app/src/main/res/layout/faculty_item_layout.xml" value="0.12537993920972645" />
         <entry key="app/src/main/res/layout/fragment_about.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_admin_notices.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_admin_notices1.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_admin_notices2.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/fragment_admin_profile1.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/fragment_admin_profile2.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/fragment_admin_reference_materials.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/fragment_admin_reference_materials1.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/fragment_admin_reference_materials2.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/fragment_exam.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.165" />
         <entry key="app/src/main/res/layout/fragment_notice.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_notifiction.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/fragment_papers.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/fragment_profile2.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/fragment_timetable.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/listview_referencematerials.xml" value="0.18802083333333333" />
         <entry key="app/src/main/res/layout/newsfeed_item_layout.xml" value="0.1" />
         <entry key="app/src/main/res/layout/no_data_found.xml" value="0.12537993920972645" />
-        <entry key="app/src/main/res/menu/bottom_nav.xml" value="0.18072916666666666" />
+        <entry key="app/src/main/res/layout/student.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/student_list.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/student_timetable_list_item.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/layout/subject_list_item.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/menu/bottom_nav.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.15" />
         <entry key="app/src/main/res/menu/navigation_drawer.xml" value="0.1734375" />
+        <entry key="app/src/main/res/menu/papers_menu.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/menu/timetable_activity_menu.xml" value="0.18802083333333333" />
+        <entry key="app/src/main/res/menu/timetable_toolbar_menu.xml" value="0.17916666666666667" />
       </map>
     </option>
   </component>

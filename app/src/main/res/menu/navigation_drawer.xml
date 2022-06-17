@@ -15,21 +15,25 @@
         android:title="Themes"
         android:icon="@drawable/ic_theme"
         />
-    <item android:id="@+id/navigation_website"
-        android:title="Website"
-        android:icon="@drawable/ic_website"
+    <item android:id="@+id/navigation_ent"
+        android:title="Entertainment"
+        android:icon="@drawable/ic_entertainment"
         />
     <item android:id="@+id/navigation_rate"
         android:title="Rate Us"
         android:icon="@drawable/ic_review"
         />
-    <item android:id="@+id/navigation_developer"
-        android:title="Developers"
-        android:icon="@drawable/ic_developer"
+    <item android:id="@+id/navigation_contact"
+        android:title="Contact Us"
+        android:icon="@drawable/ic_contact"
         />
     <item android:id="@+id/navigation_share"
         android:title="Share"
         android:icon="@drawable/ic_share"
+        />
+    <item android:id="@+id/navigation_logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_logout"
         />
 
 </menu>

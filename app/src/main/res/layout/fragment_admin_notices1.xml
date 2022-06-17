@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/mad"
+    android:alpha="0.7"
+    tools:context=".control.main.PlaceholderFragmentNotices">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/notices_admin"
+            android:layout_width="390dp"
+            android:layout_height="1dp"
+            android:gravity="center"
+            android:layout_marginTop="90dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/noticeID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/notice_id3006"
+                android:textColor="	#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/noticeID_ans"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:inputType=""
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/notice_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title3002"
+                android:textColor="	#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/notices_title_ans"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:inputType=""
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/notices_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content3005"
+                android:textColor="	#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/notices_content1_ans"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:inputType="textMultiLine"
+                />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/notice_add_btn"
+            android:layout_width="249dp"
+            android:layout_height="59dp"
+            android:text="@string/add3003"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -7,16 +7,73 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- normal permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <permission android:name="android.permission.MEDIA_CONTENT_CONTROL" /> <!-- danger permissions -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/celc_logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/celc_logo"
         android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
         android:theme="@style/Theme.CollegeApp">
-        <activity android:name=".MainActivityOne"
-            android:exported="false"/>
+        <activity
+            android:name=".control.data.model.SignUpStudent"
+            android:exported="false" />
+
+        <activity android:name=".ent.Entertainment"/>
+        <activity android:name=".ent.Video"/>
+        <activity android:name=".ent.Audio"/>
+        <activity android:name=".ent.PictureOne"/>
+        <activity android:name=".ent.Media"/>
+        <activity android:name=".ContactUs"/>
+        <activity android:name=".control.AdminReferenceMaterials"/>
+        <activity android:name=".control.AdminNotices"/>
+        <activity android:name=".control.data.model.SignUpAdmin" />
+        <activity android:name=".control.data.model.SignIn" />
+        <activity android:name=".control.AddTimeTable" />
+        <activity android:name=".control.TimeTableDetails" />
+        <activity android:name=".control.AdminExam"/>
+
+        <activity
+            android:name=".control.AdminTimeTableList"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".control.Admin_Profile"
+            android:label="@string/title_activity_admin__profile"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".control.data.model.login"
+            android:exported="false"
+            android:label="Study Lab"
+            android:logo="@drawable/logo" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".control.AdminExamView"
+            android:label="@string/title_activity_my"/>
+        <activity
+            android:name=".control.AdminExamInsertUpdate"
+            android:label="@string/title_activity_about" />
+        <activity
+            android:name=".control.AdminExamDelete"
+            android:label="@string/title_activity_contact" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
         <activity
             android:name=".notice.DeleteNoticeActivity"
             android:exported="false" />
@@ -48,13 +105,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".AdminMenu"
             android:exported="false">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
     </application>
 

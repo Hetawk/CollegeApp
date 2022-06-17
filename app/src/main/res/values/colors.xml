@@ -23,6 +23,24 @@
     <color name="light_gray">#D3D3D3</color>
     <color name="green">#4E9F3D</color>
     <color name="pink">#F10086</color>
+    <color name="orange">#F67D48</color>
+
+
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B34</color>
+    <color name="primaryColour">#FF5722</color>
+
+    <color name="formBackground">#46808382</color>
+
+    <color name="color_timetable1">#DB4437</color>
+    <color name="color_timetable2">#4285F4</color>
+
+    <color name="button">#FFFFFF</color>
+    <color name="sectionColour">#9F64AFF0</color>
+    <color name="transparent">#01FFFFFF</color>
+    <color name="List">#CCE5FB</color>
 
 
 

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".control.main.PlaceholderFragment">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:alpha="0.2"-->
+<!--        android:contentDescription="@string/background"-->
+<!--        android:src="@drawable/mad"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" -->
+<!--        />-->
+
+    <LinearLayout
+        android:layout_width="388dp"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:background="@color/sectionColour"
+        android:gravity="center"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/admin_id"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                />
+
+            <EditText
+                android:id="@+id/adminId1"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/admin_id"
+                android:inputType="textPersonName"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginStart="50dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/admin_id"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                />
+
+            <EditText
+                android:id="@+id/adminEmail1"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="Admin Email"
+                android:inputType="textEmailAddress"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginStart="50dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/admin_name"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                />
+
+            <EditText
+                android:id="@+id/adminName"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/admin_name"
+                android:inputType="textPersonName"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginStart="20dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/password"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textAlignment="viewStart"
+                android:layout_marginStart="10dp"
+
+                />
+            <EditText
+                android:id="@+id/password1"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginStart="40dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            >
+            <Button
+                android:id="@+id/create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_background_button"
+                android:text="@string/create1"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                />
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_background_button"
+                android:text="@string/delete"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="398dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+
+        >
+        <ListView
+            android:id="@+id/listViewStudent"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:layout_marginEnd="8dp"
+            android:background="@color/sectionColour"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContactUs"
+    >
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:orientation="vertical"
+
+        >
+
+        <ImageView
+            android:id="@+id/iv_sms"
+            android:layout_width="190dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_sms" />
+
+
+
+        <EditText
+            android:id="@+id/et_sms"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:ems="10"
+            android:autoSizeTextType="uniform"
+            android:hint="Write your message here..."
+            android:inputType="textMultiLine"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_smsNum"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Contact Number.."
+            android:inputType="phone"
+            android:minHeight="48dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_send_sms"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#888"
+            android:text="send"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="28sp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:text="Make A Call"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="Dial"
+            android:inputType="phone"
+            android:minHeight="48dp" />
+
+        <ImageView
+            android:id="@+id/iv_call"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/ic_phone" />
+    </LinearLayout>
+
+
+</LinearLayout>

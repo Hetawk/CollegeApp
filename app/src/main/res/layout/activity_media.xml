@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    android:gravity="center"
+
+    tools:context=".ent.Media">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_music"
+            android:background="#8BC34A"
+
+            />
+        <Button
+            android:id="@+id/audio"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="Play Audio"
+            android:textSize="24sp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/video"
+            android:background="#8BC34A"
+            />
+        <Button
+            android:id="@+id/video"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="Play Video"
+            android:textSize="24sp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

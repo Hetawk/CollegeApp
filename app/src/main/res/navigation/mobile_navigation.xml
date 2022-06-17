@@ -11,25 +11,50 @@
         android:label="Home"
         tools:layout="@layout/fragment_home"
         />
-    <fragment android:id="@+id/navigation_notice"
-        android:name="com.ekd.college.ui.notice.NoticeFragment"
-        android:label="Notice"
-        tools:layout="@layout/fragment_notice"
-        />
-    <fragment android:id="@+id/navigation_faculty"
-        android:name="com.ekd.college.ui.faculty.FacultyFragment"
-        android:label="Faculty"
-        tools:layout="@layout/fragment_faculty"
-        />
+<!--    <fragment android:id="@+id/navigation_notice"-->
+<!--        android:name="com.ekd.college.ui.notice.NoticeFragment"-->
+<!--        android:label="Notice"-->
+<!--        tools:layout="@layout/fragment_notice"-->
+<!--        />-->
+<!--    <fragment android:id="@+id/navigation_faculty"-->
+<!--        android:name="com.ekd.college.ui.faculty.FacultyFragment"-->
+<!--        android:label="Faculty"-->
+<!--        tools:layout="@layout/fragment_faculty"-->
+<!--        />-->
     <fragment android:id="@+id/navigation_gallery"
         android:name="com.ekd.college.ui.gallery.GalleryFragment"
         android:label="Gallery"
         tools:layout="@layout/fragment_gallery"
         />
-    <fragment android:id="@+id/navigation_about"
-        android:name="com.ekd.college.ui.about.AboutFragment"
-        android:label="About"
-        tools:layout="@layout/fragment_about"
+<!--    <fragment android:id="@+id/navigation_about"-->
+<!--        android:name="com.ekd.college.ui.about.AboutFragment"-->
+<!--        android:label="About"-->
+<!--        tools:layout="@layout/fragment_about"-->
+<!--        />-->
+
+    <fragment android:id="@+id/navigation_profile"
+        android:name="com.ekd.college.control.Profile"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile"
         />
+
+    <fragment android:id="@+id/navigation_exam"
+        android:name="com.ekd.college.control.Exam"
+        android:label="Exam"
+        tools:layout="@layout/fragment_exam"
+        />
+
+    <fragment android:id="@+id/navigation_papers"
+        android:name="com.ekd.college.control.Papers"
+        android:label="Papers"
+        tools:layout="@layout/fragment_papers"
+        />
+
+    <fragment android:id="@+id/navigation_timeTable"
+        android:name="com.ekd.college.control.TimeTable"
+        android:label="TimeTable"
+        tools:layout="@layout/fragment_timetable"
+        />
+
 
 </navigation>

@@ -1,6 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">CollegeApp</string>
-
+    <string name="app_name">CELCollege</string>
     <string name="title_activity_user">UserActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -13,9 +12,15 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="title_activity_admin">MainActivity</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_up_stud">Sign Up As Student</string>
+    <string name="sign_up_admin">Sign Up As Admin</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="already_register">Already register?</string>
+    <string name="do_not_have_an">Do not have an account?</string>
+
 
     <string name="lato_bold" tools:ignore="ReferenceType">@font/lato_bold</string>
     <string name="lato_italic" tools:ignore="ReferenceType">@font/lato_italic</string>
@@ -39,5 +44,216 @@
         as an academy called the Christ Evangelical Lutheran College of NoLand City, NoLand
     </string>
 
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="profile001">Profile</string>
+    <string name="time_table002">Time Table</string>
+    <string name="exam003">Exam</string>
+    <string name="papers004">Papers</string>
+    <string name="notification_button">notification_button</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_my">AdminExamView</string>
+    <string name="title_activity_about">AdminExamInsertUpdate</string>
+    <string name="title_activity_contact">AdminExamDelete</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_admin_notices">AdminNotices</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="delete3001">DELETE</string>
+    <string name="title3002">Title</string>
+    <string name="add3003">ADD</string>
+    <string name="update3004">UPDATE</string>
+    <string name="content3005">Content</string>
+    <string name="notice_id3006">Notice ID</string>
+    <string name="notices3007">NOTICES</string>
+
+
+    <string name="delete">DELETE</string>
+    <string name="title">Title</string>
+    <string name="add">ADD</string>
+    <string name="update">UPDATE</string>
+    <string name="content">Content</string>
+    <string name="notice_ID2">Notice ID</string>
+    <string name="notice_id">Notice ID</string>
+    <string name="notices">NOTICES</string>
+    <string name="for_all_students">For All Students</string>
+    <string name="please_pay_your_class_fees_before_2nd_week">Please pay your class fees before 2nd week</string>
+    <string name="for_grade_9_students">For Grade 9 Students</string>
+    <string name="there_will_be_no_history_class_on_16th_of_september">There will be no History class on 16th of September</string>
+
+
+    <string name="studentProf">studentProf</string>
+    <string name="backgroundtop">backgroundTop</string>
+    <string name="backgroundTop">backgroundTop</string>
+    <string name="profilePic">profilePic</string>
+    <string name="student_id01">Student ID</string>
+    <string name="student_name1">Student Name</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="gender">Gender</string>
+    <string name="school">School</string>
+    <string name="address">Address</string>
+    <string name="contact_no">Contact No.</string>
+    <string name="guardians_name">Guardians Name</string>
+    <string name="guardians_contact_no">Guardians Contact No.</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+
+    <string name="examId1000">Exam ID</string>
+    <string name="subjectID1001">Subject ID</string>
+    <string name="examIdHint1002">Enter the Exam ID</string>
+    <string name="subjectId1003">Enter the Subject ID</string>
+    <string name="viewMarks1004">View Marks</string>
+    <string name="studentID1004">Student ID</string>
+    <string name="studentName1005">Student Name</string>
+    <string name="examName1006">Exam Name</string>
+    <string name="marks1007">Marks</string>
+    <string name="grade1008">Grade</string>
+    <string name="comments1009">Comments</string>
+    <string name="resultsSheet1110">Results Sheet</string>
+
+    <string name="title_activity_admin_exam_panel">AdminExamPanel</string>
+
+    <string name="title_activity_admin_exam">AdminExam</string>
+    <string name="slidingtabsusingviewpager1010" />
+    <string name="examNameHint1011">Enter the Exam Name</string>
+    <string name="createExam1111">Add</string>
+    <string name="removeExam1112">Remove</string>
+    <string name="examMarks">Marks</string>
+    <string name="examMarksHint1112">Enter the Marks</string>
+    <string name="examMarksAdd1113">Add</string>
+    <string name="examMarksUpdate1114">Update</string>
+    <string name="subjectIdHint1115">Enter the Subject ID</string>
+    <string name="examStudentIdHint">Enter the Student ID</string>
+    <string name="examTime1015">Time</string>
+    <string name="examVenue1016">Venue</string>
+    <string name="examDate1017">Date</string>
+    <string name="examTimeHint1018">Ex:08-09</string>
+    <string name="examDateHint1019">Enter the Date</string>
+    <string name="examVenueHint1020">Enter the Venue</string>
+    <string name="grade1020">Grade</string>
+    <string name="gradeHint1021">Enter the Grade</string>
+    <string name="searchBtn1025">Serch By ID</string>
+
+
+    <string name="todo3024">TODO</string>
+    <string name="title_activity_admin_papers">AdminPapers</string>
+    <string name="choose3009">CHOOSE</string>
+    <string name="reference_materials_id3010">Reference Materials ID</string>
+    <string name="reference_material_title3011">Reference Material Title</string>
+    <string name="reference_material_url3012">Reference Material URL</string>
+    <string name="title_activity_admin_reference_materials">AdminReferenceMaterials</string>
+    <string name="upload3015">UPLOAD</string>
+    <string name="todo3025">TODO</string>
+    <string name="todo3026">TODO</string>
+    <string name="admin">Admin</string>
+    <string name="admin3021">ADMIN</string>
+    <string name="search3028">Search</string>
+    <string name="addpapers">ADDPAPERS</string>
+    <string name="addnotifications">ADDNOTIFICATIONS</string>
+    <string name="addexams">ADDEXAMS</string>
+    <string name="addtimetables">ADDTIMETABLES</string>
+    <string name="title_activity_admin_profile">AdminProfile</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_in_stud">Sign In As Student</string>
+    <string name="sign_in_admin">Sign In As Admin</string>
+    <string name="username">Username</string>
+    <string name="addprofiles">ADDPROFILES</string>
+    <string name="menu">Menu</string>
+
+
+    <string name="title_activity_admin__profile">Admin_Profile</string>
+    <string name="profile_edit">Profile Edit</string>
+    <string name="password">Password</string>
+    <string name="create1">Create</string>
+    <string name="admin_name">Admin Name</string>
+    <string name="admin_id">Admin Id</string>
+    <string name="sign_in_as_student">SIGN IN AS STUDENT</string>
+    <string name="sign_in_as_admin">SIGN IN AS ADMIN</string>
+    <string name="dd_mm_yyyy">dd-mm-yyyy</string>
+    <string name="background">background</string>
+    <string name="search">search</string>
+    <string name="todo3030">TODO</string>
+
+    <string name="viewTimetable_admin">View</string>
+    <string name="time_table_id_admin">Time Table ID</string>
+    <string name="teacher_admin">Teacher</string>
+    <string name="venue_admin">Venue</string>
+    <string name="day_admin">Day</string>
+    <string name="time_admin">Time</string>
+    <string name="add_timetable_data">ADD</string>
+    <string name="update_timetable_data">UPDATE</string>
+    <string name="delete_timetable_data">DELETE</string>
+    <string name="next_admin">NEXT</string>
+    <string name="add_subject">INSERT</string>
+    <string name="delete_subject">DELETE</string>
+    <string name="view_subject3000">VIEW</string>
+    <string name="subjectId_format">Format Ex: Grade_11_SubjectName</string>
+    <string name="item">Item</string>
+    <string name="new_time_table">NEW TIME TABLE</string>
+    <string name="studentView_subNames">TextView</string>
+    <string name="studentView_teacherNames">TextView</string>
+    <string name="studentView_days">TextView</string>
+    <string name="studentView_startTimes">TextView</string>
+    <string name="studentView_endTimes">TextView</string>
+    <string name="studentView_Venues">TextView</string>
+    <string name="adminView_subIds">TextView</string>
+    <string name="adminView_subNames">TextView</string>
+    <string name="adminView_teacherNames">TextView</string>
+    <string name="adminView_days">TextView</string>
+    <string name="adminView_startTimes">TextView</string>
+    <string name="adminView_endTimes">TextView</string>
+    <string name="adminView_Venues">TextView</string>
+    <string name="studentView_subIds">TextView</string>
+    <string name="textview324234">TextView</string>
+    <string name="textviewsadsdsd">TextView</string>
+    <string name="subject_id_timeTable">Subject ID</string>
+    <string name="subject_name_timeTable">Subject Name</string>
+    <string name="teacher_timeTable">Teacher</string>
+    <string name="day_timeTable">Day</string>
+    <string name="start_time_timeTable">Start Time</string>
+    <string name="end_time_timeTable">End Time</string>
+    <string name="venue_timeTable">Venue</string>
+    <string name="start_time_studentViewTimeTable">Start Time</string>
+    <string name="end_time_studentViewTimeTable">End Time</string>
+    <string name="venue_studentViewTimeTable">Venue</string>
+    <string name="subject_id__studentViewTimeTable">Subject ID</string>
+    <string name="subject_name_studentViewTimeTable">Subject Name</string>
+    <string name="teacher_studentViewTimeTable">Teacher</string>
+    <string name="day_studentViewTimeTable">Day</string>
+    <string name="subject_id_timeTabel">Subject ID</string>
+    <string name="subject_name__timeTabel">Subject Name</string>
+    <string name="teacher_add_timeTabel">Teacher</string>
+    <string name="day_add__timeTabel">Day</string>
+    <string name="venue_add__timeTabel">Venue</string>
+    <string name="start_time_timeTabel">Start Time</string>
+    <string name="end_time_timeTabel">End Time</string>
+    <string name="back_timeTable">BACK</string>
+    <string name="add_timeTable">ADD</string>
+    <string name="label">Subject ID Format: Grade_class_subjectname</string>
+    <string name="label1">Subject ID Format: Grade_Class_Subject Name</string>
+    <string name="subId_edit_timTables">Select ID</string>
+    <string name="subName_edit_timTables">Subject</string>
+    <string name="teacher_edit_timeTables">Teacher</string>
+    <string name="venue_edit_timeTables">Venue</string>
+    <string name="day_edit_tieTables">Day</string>
+    <string name="startTime_edit_timeTables">Start Time</string>
+    <string name="end_time_edit_timeTables">End Time</string>
+    <string name="updatetimetable">UPDATE</string>
+    <string name="deletetimetable">DELETE</string>
+    <string name="backtimetable">BACK</string>
+    <string name="subject_id_editTimetables_admin">Subject ID</string>
+    <string name="entertainment">Entertainment</string>
 </resources>

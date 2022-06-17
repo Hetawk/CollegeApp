@@ -5,20 +5,40 @@
         android:icon="@drawable/ic_home"
         android:title="Home"
         />
-    <item android:id="@+id/navigation_notice"
-        android:icon="@drawable/ic_newsfeed"
-        android:title="Notice"
-        />
-    <item android:id="@+id/navigation_faculty"
-        android:icon="@drawable/ic_faculty"
-        android:title="faculty"
-        />
+
+    <item
+        android:id="@+id/navigation_timeTable"
+        android:icon="@drawable/timetable"
+        android:title="@string/time_table002" />
+
+    <item
+        android:id="@+id/navigation_exam"
+        android:icon="@drawable/exam"
+        android:title="@string/exam003" />
+    <item
+        android:id="@+id/navigation_papers"
+        android:icon="@drawable/papers"
+        android:title="@string/papers004" />
+
+<!--    <item-->
+<!--        android:id="@+id/navigation_profile"-->
+<!--        android:icon="@drawable/user"-->
+<!--        android:title="@string/profile001" />-->
+
+<!--    <item android:id="@+id/navigation_notice"-->
+<!--        android:icon="@drawable/ic_newsfeed"-->
+<!--        android:title="Notice"-->
+<!--        />-->
+<!--    <item android:id="@+id/navigation_faculty"-->
+<!--        android:icon="@drawable/ic_faculty"-->
+<!--        android:title="faculty"-->
+<!--        />-->
     <item android:id="@+id/navigation_gallery"
-        android:icon="@drawable/ic_gallery"
-        android:title="Gallery"
+        android:icon="@drawable/video"
+        android:title="Videos"
         />
-    <item android:id="@+id/navigation_about"
-        android:icon="@drawable/ic_about"
-        android:title="About"
-        />
+<!--    <item android:id="@+id/navigation_about"-->
+<!--        android:icon="@drawable/ic_about"-->
+<!--        android:title="About"-->
+<!--        />-->
 </menu>

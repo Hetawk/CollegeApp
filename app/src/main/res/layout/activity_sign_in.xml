@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".control.data.model.SignIn">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:gravity="center"
+       >
+       <ImageView
+           android:id="@+id/sign_in_img"
+           android:layout_width="330dp"
+           android:layout_height="259dp"
+           app:srcCompat="@drawable/cel_college_profile"
+           />
+       <TextView
+           android:id="@+id/signIn_label"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="32dp"
+           android:text="@string/sign_in"
+           android:textColor="@color/orange"
+           android:textSize="30sp"
+           android:textStyle="bold"
+           />
+       <EditText
+           android:id="@+id/sign_in_email"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:backgroundTint="@color/orange"
+           android:ems="10"
+           android:hint="@string/enter_email"
+           android:inputType="textEmailAddress"
+           android:textColor="@color/black"
+           android:textColorHint="@color/dark_gray"
+           android:textSize="20sp"
+           android:gravity="center_horizontal"
+           android:drawableStart="@drawable/login1"
+
+           />
+       <EditText
+           android:id="@+id/sign_in_pass"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:backgroundTint="@color/orange"
+           android:ems="10"
+           android:hint="@string/enter_password"
+           android:inputType="textPassword"
+           android:textColor="@color/black"
+           android:textColorHint="@color/dark_gray"
+           android:textSize="20sp"
+           android:gravity="center_horizontal"
+           android:drawableStart="@drawable/login2"
+           />
+
+       <Button
+           android:id="@+id/btn_sign_in_admin"
+           android:layout_width="300dp"
+           android:layout_height="48dp"
+           android:layout_marginBottom="20dp"
+           android:backgroundTint="@color/dark_blue"
+           android:text="@string/sign_in_admin"
+           android:textStyle="bold"
+           />
+       <RelativeLayout
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+
+           >
+           <TextView
+               android:layout_width="180dp"
+               android:layout_height="50dp"
+               android:text="Switch to student"
+               android:textColor="@color/red"
+               android:paddingTop="8dp"
+               android:textSize="22sp" />
+           <Button
+               android:id="@+id/btn_sign_in"
+               android:layout_width="110dp"
+               android:layout_height="50dp"
+               android:backgroundTint="@color/dark_blue"
+               android:text="Sign In"
+               android:textStyle="bold"
+               android:layout_alignParentEnd="true"
+               />
+       </RelativeLayout>
+       <LinearLayout
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           >
+           <TextView
+               android:id="@+id/create_an_acc"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/do_not_have_an"
+               android:textColor="@color/orange"
+               android:textSize="19sp"
+               />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               >
+               <TextView
+                   android:id="@+id/register_admin"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Admin SignUp"
+                   android:textColor="@color/dark_blue"
+                   android:textSize="19sp"
+                   android:textStyle="bold"
+                   />
+               <TextView
+                   android:id="@+id/register_stud"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Student SignUp"
+                   android:textColor="@color/dark_blue"
+                   android:textSize="19sp"
+                   android:textStyle="bold"
+                   android:layout_marginLeft="39dp"
+                   />
+           </LinearLayout>
+       </LinearLayout>
+   </LinearLayout>
+
+
+</ScrollView>
