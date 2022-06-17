@@ -105,6 +105,7 @@
         <entry key="app/src/main/res/layout/fragment_admin_reference_materials1.xml" value="0.18802083333333333" />
         <entry key="app/src/main/res/layout/fragment_admin_reference_materials2.xml" value="0.18802083333333333" />
         <entry key="app/src/main/res/layout/fragment_exam.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_faculty.xml" value="0.2578125" />
         <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.165" />
         <entry key="app/src/main/res/layout/fragment_notice.xml" value="0.1" />
