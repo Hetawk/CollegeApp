@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContactUs"
+    >
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Need a help? Contact us, our team is always available."
+            android:gravity="center"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:textColor="#ff4500"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:id="@+id/iv_sms"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/ic_sms" />
+            <EditText
+                android:id="@+id/et_smsNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_alignParentEnd="true"
+                android:background="@null"
+                android:layout_marginEnd="8dp"
+                android:hint="+8618506832169"
+                android:inputType="phone"
+                android:textColor="#FF5722"
+                android:minHeight="48dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/et_sms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@null"
+            android:hint="Write your message here..."
+            android:inputType="textMultiLine"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:id="@+id/btn_send_sms"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:backgroundTint="#00BCD4"
+                android:text="send"
+                android:layout_alignParentEnd="true"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="28sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+           >
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:text="Call Us!"
+               android:textSize="30sp"
+               android:layout_alignParentBottom="true"
+               android:textStyle="bold"
+
+               />
+           <EditText
+               android:id="@+id/et_number"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="+8618506832159"
+               android:background="@null"
+               android:inputType="phone"
+               android:textColor="@color/white"
+               android:layout_marginStart="10dp"
+               android:minHeight="48dp" />
+
+
+
+           <com.google.android.material.floatingactionbutton.FloatingActionButton
+               android:id="@+id/iv_call"
+               style="@style/Widget.Design.FloatingActionButton"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentEnd="true"
+               android:layout_alignParentBottom="true"
+               android:layout_gravity="bottom|right"
+               android:elevation="3dp"
+               android:src="@drawable/ic_phone"
+               app:fabSize="normal" />
+       </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
