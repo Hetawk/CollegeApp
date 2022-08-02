@@ -15,7 +15,8 @@ The main purpose is to develop a college app that will help administrators, facu
   <b>Login</b>
   <img src="/project_login.gif" width="232" height="480" />
   <b>Admin Panel</b>
-  <img src="/admin_panel1.gif" width="232" height="480" /> 
+  <img src="/admin_panel1.gif" width="232" height="480" /> <br/><br/>
+  <b>Admin Panel</b>
   <img src="/app_detail.gif" width="232" height="480" />
 </p>
 
