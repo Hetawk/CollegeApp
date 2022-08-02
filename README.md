@@ -12,12 +12,12 @@ The main purpose is to develop a college app that will help administrators, facu
 
 <div style="width:100%;height:0;padding-bottom:207%;align:center">
 <b>Login</b>
-<img src="https://github.com/Hetawk/CollegeApp/blob/master/project_login.gif" width="232" height="480" style="align:left" />
+<img src="https://github.com/Hetawk/CollegeApp/project_login.gif" width="232" height="480" style="align:left" />
 <b>Admin Panel</b>
-<img src="https://github.com/Hetawk/CollegeApp/blob/master/admin_panel1.gif" width="232" height="480" style="align:center" />
+<img src="https://github.com/Hetawk/CollegeApp/admin_panel1.gif" width="232" height="480" style="align:center" />
 <b>Admin Panel</b>
 <img src="https://github.com/Hetawk/CollegeApp/blob/master/app_detail.gif" width="232" height="480" style="align:right" />
-
+<!--<img src="https://github.com/Hetawk/CollegeApp/blob/master/app_detail.gif" width="232" height="480" style="align:right" />-->
 
 </div>
 
