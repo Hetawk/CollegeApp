@@ -22,14 +22,14 @@ The main purpose is to develop a college app that will help administrators, facu
 
 ## Screenshot
 <p align="left">
-  <img src="/assets/admin_page1.png" width="232" height="480" />
-  <img src="/assets/admin_panel2.png" width="232" height="480" />
-  <img src="/assets/student_page.png" width="232" height="480" />
-  <img src="/assets/student_page0.png" width="232" height="480" />
-  <img src="/assets/teachers_view.png" width="232" height="480" />
-  <img src="/assets/courses.png" width="232" height="480" />
-  <img src="/assets/ref3.png" width="232" height="480" />
-  <img src="/assets/notice_page.png" width="232" height="480" />
+  <img src="assets/admin_page1.png" alt="admin page" width="232" height="480" />
+  <img src="assets/admin_page2.png" alt="admin page" width="232" height="480" />
+  <img src="assets/student_page.png"  alt="student page"width="232" height="480" />
+  <img src="assets/student_page0.png" alt="admin page" width="232" height="480" />
+  <img src="assets/teachers_view.png" alt="teachers page" width="232" height="480" />
+  <img src="assets/courses.png" alt="course page" width="232" height="480" />
+  <img src="assets/ref3.png" alt="reference materials page" width="232" height="480" />
+  <img src="assets/notice_page.png" alt="notice page" width="232" height="480" />
 
 </p>
 
