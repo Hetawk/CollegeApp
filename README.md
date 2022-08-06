@@ -13,11 +13,11 @@ The main purpose is to develop a college app that will help administrators, facu
 
 <p align="left">
   <b>Login</b>
-  <img src="/assets/login.gif" width="232" height="480" />
+  <img src="assets/login.gif" alt="login signup page" width="232" height="480" />
   <b>Admin Panel</b>
-  <img src="/assets/admin_panel0.gif" width="232" height="480" /> <br/><br/>
+  <img src="assets/admin_panel0.gif" alt="admin page" width="232" height="480" /> <br/><br/>
   <b>Admin Panel</b>
-  <img src="/assets/admin_panel1.gif" width="232" height="480" />
+  <img src="assets/admin_panel1.gif" alt="admin page" width="232" height="480" />
 </p>
 
 ## Screenshot
