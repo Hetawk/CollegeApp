@@ -11,14 +11,26 @@ The main purpose is to develop a college app that will help administrators, facu
 
 
 
-<p float="left">
+<p align="left">
   <b>Login</b>
-  <img src="/project_login.gif" width="232" height="480" />
+  <img src="/assets/login.gif" width="232" height="480" />
   <b>Admin Panel</b>
-  <img src="/admin_panel1.gif" width="232" height="480" /> <br/><br/>
+  <img src="/assets/admin_panel0.gif" width="232" height="480" /> <br/><br/>
   <b>Admin Panel</b>
-  <img src="/app_detail.gif" width="232" height="480" />
+  <img src="/assets/admin_panel1.gif" width="232" height="480" />
 </p>
 
+## Screenshot
+<p align="left">
+  <img src="/assets/admin_page1.png" width="232" height="480" />
+  <img src="/assets/admin_panel2.png" width="232" height="480" />
+  <img src="/assets/student_page.png" width="232" height="480" />
+  <img src="/assets/student_page0.png" width="232" height="480" />
+  <img src="/assets/teachers_view.png" width="232" height="480" />
+  <img src="/assets/courses.png" width="232" height="480" />
+  <img src="/assets/ref3.png" width="232" height="480" />
+  <img src="/assets/notice_page.png" width="232" height="480" />
+
+</p>
 
 
